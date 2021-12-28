@@ -1,0 +1,31 @@
+package myArray;
+import java.util.Scanner;
+public class ReverseOrder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int item0, item1, item2, item3, item4;
+		int sum;
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter five integers one number per line : ");
+		
+		item0 = scan.nextInt();
+		item1 = scan.nextInt();
+		item2 = scan.nextInt();
+		item3 = scan.nextInt();
+		item4 = scan.nextInt();
+		
+		sum = item0 + item1 + item2 + item3 + item4;
+		
+		System.out.println("The sum of the numbers = " + sum);
+		System.out.println("The numbers in reverse order are : ");
+		System.out.println(item4 + "" + item3 + "" + item2 + "" + item1 + "" + item0);
+		
+		scan.close();
+
+	}
+
+}
