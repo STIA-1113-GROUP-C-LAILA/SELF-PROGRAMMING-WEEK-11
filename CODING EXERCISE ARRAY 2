@@ -1,0 +1,26 @@
+package myArray;
+import java.util.Scanner;
+public class ExerciseArray2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+		int list1 [] = new int [5];
+		int list2[] = new int[5];
+		int i;
+		
+		System.out.println("Please enter 5 array elements : ");
+		for ( i = 0; i<list1.length; i++)
+			list1[i] = scan.nextInt();
+		
+		for (int y = 0; y < list2.length; y++)
+			list2[y] = list1[y];
+		
+		for (int z = 0; z < list2.length; z++ )
+			System.out.println(list1[z] + "" + list2[z]);
+		
+
+	}
+
+}
