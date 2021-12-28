@@ -1,0 +1,18 @@
+package myArray;
+
+public class ExerciseArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int alpha [] = {2,45,14,3,28,35,9,22,8,19,24,31,20,10,7};
+		
+		System.out.println("10th element is " + alpha[10]);
+		System.out.println("The sum of 6th and 13th element is " + alpha[9]);
+		System.out.println("5th elements is " + alpha[5]);
+		
+		
+
+	}
+
+}
