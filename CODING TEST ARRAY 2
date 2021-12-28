@@ -1,0 +1,15 @@
+package myArray;
+
+public class TestArray1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a[] = {33,3,4,5,7};
+		int i;
+		
+		for (i = 0; i <a.length; i++)
+			System.out.println(a[i]);
+	}
+
+}
