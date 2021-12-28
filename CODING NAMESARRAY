@@ -1,0 +1,31 @@
+package myArray;
+
+public class NamesArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String [] namelist = new String [6];
+		int x;
+		
+		namelist [0] = "Garrus Vakarian";
+		namelist [1] = "Rider Stark";
+		namelist [2] = "Chloe Browwn";
+		namelist [3] = "Mallory";
+		namelist [4] = "Rose Hawkthorne";
+		namelist [5] = "Adam Connor";
+		
+		System.out.println(namelist.length);
+		System.out.println("The list of names : ");
+		
+		for ( x = 0; x < namelist.length; x++)
+			System.out.println(namelist [x]);
+	
+		
+			
+			
+		
+
+	}
+
+}
